@@ -1,0 +1,7 @@
+<form action="" method="post" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    <label for="file">Select CSV file:</label>
+    {{ form.file() }}
+    <br>
+    <button type="submit" class="btn btn-primary">Upload</button>
+</form>
